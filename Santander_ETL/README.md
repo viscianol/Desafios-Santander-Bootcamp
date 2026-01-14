@@ -19,25 +19,27 @@ Garantir compatibilidade com arquivos CSV gerados no Excel (encoding e separador
 -> PIPELINE ETL
 
 Extract:
-Leitura de dados a partir de arquivo CSV
-Tratamento de encoding UTF-8 com BOM
-Suporte a separador regional ;, comum em arquivos do Excel no Brasil
+Leitura de dados a partir de arquivo CSV; 
+Tratamento de encoding UTF-8 com BOM; 
+Suporte a separador regional ;, comum em arquivos do Excel no Brasil.
 
 Transform:
-Criação de mensagens personalizadas de marketing
-Integração opcional com Inteligência Artificial (OpenAI GPT)
-Implementação de fallback, garantindo que o pipeline execute mesmo sem acesso à API
+Criação de mensagens personalizadas de marketing; 
+Integração opcional com Inteligência Artificial (OpenAI GPT); 
+Implementação de fallback, garantindo que o pipeline execute mesmo sem acesso à API.
 
 Load:
-Escrita dos dados transformados em um novo arquivo CSV
-Uso de encoding utf-8-sig, garantindo correta visualização de acentos no Excel
+Escrita dos dados transformados em um novo arquivo CSV; 
+Uso de encoding utf-8-sig, garantindo correta visualização de acentos no Excel.
 
 
 
 -> COMO EXECUTAR O PROJETO
 
 Pré-requisitos: Pré-requisitos
+
 Instalar dependências: pip install -r requirements.txt
+
 Executar pipeline: python main.py
 
 
@@ -49,10 +51,10 @@ Após a execução, gerará o arquivo: data/output/messages.csv
 
 -> TECNOLOGIAS UTILIZADAS
 
-Python
-Pandas
-ETL (Extract, Transform, Load)
-OpenAI API
+Python; 
+Pandas; 
+ETL (Extract, Transform, Load); 
+OpenAI API.
 
 
 -> APRENDIZADOS
