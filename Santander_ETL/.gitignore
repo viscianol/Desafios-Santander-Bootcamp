@@ -1,0 +1,13 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Variáveis de ambiente
+.env
+
+# Arquivos gerados
+data/output/messages.csv
+
+# Cache Python
+__pycache__/
+*.pyc
