@@ -59,7 +59,7 @@ OpenAI API.
 
 -> APRENDIZADOS
 
-Construção de pipelines ETL robustos
-Tratamento correto de encoding e formatação de dados
-Integração segura com IA generativa
-Organização de projetos para portfólio profissional
+Construção de pipelines ETL robustos; 
+Tratamento correto de encoding e formatação de dados; 
+Integração segura com IA generativa; 
+Organização de projetos para portfólio profissional.
